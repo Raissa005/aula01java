@@ -54,5 +54,5 @@ public class PriAula {
     static int qualIdade(int anoNasc){
         int idade = 2023 - anoNasc;
         return idade;
-    }//fim da aula
+    }//fim 
 }
