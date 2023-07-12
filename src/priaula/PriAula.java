@@ -38,9 +38,21 @@ public class PriAula {
         }else{
             System.out.println("Você ainda não pode ser preso, mas pode apanhar!");
         }
+       
+        //CLASSES WRAPPER(INVOLUCRO)
+        int varPrimitiva = 10;
+        Integer varEnvolucra = 10;
+        //varEnvolucra. possui métodos para usar já a varPrimitiva não possui
+        
+        Double valorEnvolucro = 2.10;
+        Boolean valorBool = false;
+        
+        Integer.parseInt("123"); //converte a string p/ number
+        int maxValor = Integer.MAX_VALUE; //Possui o valor máximo        
+        
     }
     static int qualIdade(int anoNasc){
         int idade = 2023 - anoNasc;
         return idade;
-    }
+    }//fim da aula
 }
